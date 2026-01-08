@@ -1,4 +1,7 @@
 /* Shared Styles */
+*{
+  margin: 0;
+}
 
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
@@ -19,12 +22,18 @@ button:hover{
   background-color: #199778;
 }
 
+.fixed-width{
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 
 /* Individual Styles */
 .nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 20px 50px;
 }
 
 .anchors{
@@ -58,6 +67,7 @@ nav li a{
   border: 2px solid white;
   border-radius: 5px;
   font-weight: 600;
+  margin: 0px 30px;
 }
 
 #bg-white{
@@ -74,4 +84,53 @@ nav li a{
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
+  margin: 20px 0px;
 }
+
+.btn-div{
+  margin: 20px 0px;
+}
+
+.img-bg{
+  background-color: red;
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.structure-section{
+  background-color: beige;
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.card-container{
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+
+main section div h1{
+  font-size: 48px;
+  margin: 20px 0px;
+  margin: 10px 0px;
+}
+
+main section div p{
+  margin-bottom: 30px;
+  color: #627382;
+}
+
+main section div div {
+  /* border: 2px solid teal; */
+  box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.116);
+  border-radius: 5px;
+}
+
+main section div div h3{
+ margin: 20px 0px;
+}
+
+/* main section div div p{
+  padding: 0px 10px;
+} */
