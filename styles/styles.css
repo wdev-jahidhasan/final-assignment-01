@@ -28,7 +28,6 @@ button:hover{
   margin: 0 auto;
 }
 
-
 /* Individual Styles */
 .nav{
   display: flex;
@@ -77,8 +76,20 @@ nav li a{
   text-decoration: none;
   color: #30B868;
   font-weight: 600;
-  padding: 10px 30px;
-  border-radius: 20px;
+  padding: 5px 10px;
+  border-radius: 40px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid yellow;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.green-dot{
+  height: 35px;
+  width: 35px;
 }
 
 .hero-p{
@@ -188,7 +199,6 @@ main section div div p{
 .footer-div{
   display: flex;
   justify-content: space-between;
-  /* justify-items: center; */
   margin: 0 auto;
   border-bottom: 2px dotted rgba(128, 128, 128, 0.315);
   padding: 60px 0px;
