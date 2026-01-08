@@ -149,3 +149,28 @@ main section div div p{
 .text-div{
   padding: 0px 30px;
 }
+
+.think-container{
+  text-align: center;
+  background-color: beige;
+  margin: 100px;
+}
+
+.think-div{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.grey{
+  color:#627382
+}
+
+.font-size{
+  font-size: 40px;
+  padding: 40px 0px;
+}
+
+.think-btn{
+  margin: 20px 0px;
+}
