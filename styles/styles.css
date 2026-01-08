@@ -1,4 +1,11 @@
 /* Shared Styles */
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .btn-style{
   background-color: #30B868;
   color: white;
@@ -29,4 +36,42 @@ button:hover{
 nav li a{
   text-decoration: none;
   color: black;
+}
+
+.hero-container{
+  background-image: url('../assets/hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 115px 120px 180px;
+}
+
+.hero-content{
+  width: 770px;
+  margin: 0 auto;
+}
+
+.another-btn-style{
+  background-color: transparent;
+  color: white;
+  padding: 10px 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#bg-white{
+  background-color: white;
+  text-decoration: none;
+  color: #30B868;
+  font-weight: 600;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.hero-p{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
 }
