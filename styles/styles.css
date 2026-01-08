@@ -1,5 +1,5 @@
 /* Shared Styles */
-*{
+* {
   margin: 0;
 }
 
@@ -9,46 +9,46 @@
   font-style: normal;
 }
 
-.btn-style{
+.btn-style {
   background-color: #30B868;
   color: white;
-  padding: 10px 30px;
+  padding: 10px 10px;
   border: none;
   border-radius: 5px;
   font-weight: 600;
 }
 
-button:hover{
+button:hover {
   background-color: #199778;
 }
 
-.fixed-width{
+.fixed-width {
   width: 85%;
   max-width: 1440px;
   margin: 0 auto;
 }
 
 /* Individual Styles */
-.nav{
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 20px 50px;
 }
 
-.anchors{
+.anchors {
   list-style: none;
   display: flex;
   gap: 32px;
 }
 
-nav li a{
+nav li a {
   text-decoration: none;
   color: black;
   font-weight: 600;
 }
 
-.hero-container{
+.hero-container {
   background-image: url('../assets/hero-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,12 +56,12 @@ nav li a{
   padding: 115px 120px 180px;
 }
 
-.hero-content{
+.hero-content {
   width: 770px;
   margin: 0 auto;
 }
 
-.another-btn-style{
+.another-btn-style {
   background-color: transparent;
   color: white;
   padding: 10px 30px;
@@ -71,7 +71,7 @@ nav li a{
   margin: 0px 30px;
 }
 
-#bg-white{
+#bg-white {
   background-color: white;
   text-decoration: none;
   color: #30B868;
@@ -87,12 +87,12 @@ nav li a{
   margin: 0 auto;
 }
 
-.green-dot{
+.green-dot {
   height: 35px;
   width: 35px;
 }
 
-.hero-p{
+.hero-p {
   color: white;
   font-size: 18px;
   font-weight: 400;
@@ -100,36 +100,36 @@ nav li a{
   margin: 20px 0px;
 }
 
-.btn-div{
+.btn-div {
   margin: 20px 0px;
 }
 
-.img-bg{
+.img-bg {
   background-color: red;
   margin-top: 30px;
   padding: 5px;
   border-radius: 25px;
 }
 
-.structure-section{
+.structure-section {
   background-color: rgb(253, 253, 233);
   padding: 40px 0px;
   text-align: center;
 }
 
-.card-container{
+.card-container {
   display: flex;
   text-align: center;
   gap: 10px;
 }
 
-main section div h1{
+main section div h1 {
   font-size: 48px;
   margin: 20px 0px;
   margin: 10px 0px;
 }
 
-main section div p{
+main section div p {
   margin-bottom: 30px;
   color: #627382;
 }
@@ -140,32 +140,33 @@ main section div div div {
   border-radius: 5px;
 }
 
-main section div div h3{
- margin: 20px 0px;
+main section div div h3 {
+  margin: 20px 0px;
 }
 
-main section div div p{
+main section div div p {
   padding: 0px 10px;
 }
 
-.brain-container{
+.brain-container {
   display: flex;
   align-items: center;
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.circle{
+.circle {
   display: flex;
   gap: 10px;
   margin: 10px;
 }
 
-.text-div{
+.text-div {
   padding: 0px 30px;
+  width: 600px;
 }
 
-.think-container{
+.think-container {
   text-align: center;
   background-color: rgb(253, 253, 233);
   margin-top: 100px;
@@ -173,30 +174,30 @@ main section div div p{
   border-radius: 5px;
 }
 
-.think-div{
+.think-div {
   display: flex;
   justify-content: center;
   padding-bottom: 60px;
 }
 
-.grey{
-  color:#627382
+.grey {
+  color: #627382
 }
 
-.font-size{
+.font-size {
   font-size: 40px;
   padding: 40px 0px;
 }
 
-.think-btn{
+.think-btn {
   margin: 20px 0px;
 }
 
-.footer-container{
+.footer-container {
   background-color: #001931;
 }
 
-.footer-div{
+.footer-div {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -204,16 +205,16 @@ main section div div p{
   padding: 60px 0px;
 }
 
-.social{
+.social {
   display: flex;
   gap: 10px;
 }
 
-#right{
+#right {
   padding-right: 100px;
 }
 
-.bg-white{
+.bg-white {
   background-color: white;
   border-radius: 50%;
   padding: 5px;
