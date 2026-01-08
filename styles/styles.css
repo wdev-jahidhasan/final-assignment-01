@@ -32,6 +32,7 @@ button:hover{
 /* Individual Styles */
 .nav{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin: 20px 50px;
 }
@@ -45,6 +46,7 @@ button:hover{
 nav li a{
   text-decoration: none;
   color: black;
+  font-weight: 600;
 }
 
 .hero-container{
@@ -99,7 +101,7 @@ nav li a{
 }
 
 .structure-section{
-  background-color: beige;
+  background-color: rgb(253, 253, 233);
   padding: 40px 0px;
   text-align: center;
 }
@@ -138,6 +140,8 @@ main section div div p{
 .brain-container{
   display: flex;
   align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .circle{
@@ -152,8 +156,10 @@ main section div div p{
 
 .think-container{
   text-align: center;
-  background-color: beige;
-  margin: 100px;
+  background-color: rgb(253, 253, 233);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 5px;
 }
 
 .think-div{
@@ -173,4 +179,32 @@ main section div div p{
 
 .think-btn{
   margin: 20px 0px;
+}
+
+.footer-container{
+  background-color: #001931;
+}
+
+.footer-div{
+  display: flex;
+  justify-content: space-between;
+  /* justify-items: center; */
+  margin: 0 auto;
+  border-bottom: 2px dotted rgba(128, 128, 128, 0.315);
+  padding: 60px 0px;
+}
+
+.social{
+  display: flex;
+  gap: 10px;
+}
+
+#right{
+  padding-right: 100px;
+}
+
+.bg-white{
+  background-color: white;
+  border-radius: 100%;
+  padding: 2px;
 }
